@@ -1,0 +1,17 @@
+
+.main-div{
+    float: left;
+    width: 30%;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5mm;
+    box-shadow: 0px 0px 10px; 
+}
+.main-img{
+    width: 100%;
+    border-top-left-radius: 5mm;
+    border-top-right-radius: 5mm;
+}
+.main-text{
+    padding-left: 10px;
+}
