@@ -1,43 +1,75 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
-.main-top img{
-    width: 100%;
-    height: 400px;
+.main-top img {
+  width: 100%;
+  height: 400px;
 }
-
-.title{
-    font-size: 32px;
-    line-height: 36px;
-    font-weight: 700;
-    color: rgb(72,72,72);
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 15px;
+.title {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  color: rgb(72, 72, 72);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
 }
-
-.sub-title{
-    font-size: 20px;
-    line-height: 30px;
-    width: 32em;
-    padding-left: 15px;
+.sub-title {
+  font-size: 20px;
+  line-height: 30px;
+  width: 32em;
+  padding-left: 15px;
 }
-
-
-.main-bottom{
-    height: 350px;
-    margin-left: 15px;
+.main-bottom {
+  height: 350px;
+  margin-left: 15px;
 }
-
-.main-menu{
-    float: left;
-    width: 25%;
-    max-height: 200px;
+.main-menu {
+  float: left;
+  width: 25%;
+  max-height: 200px;
+  position: relative;
 }
-.main-img{
-    width: 95%;
-    border-radius: 2.5mm;
+.main-img {
+  width: 95%;
+  border-radius: 2.5mm;
 }
-.main-text{
-    padding: 0px;
+.main-text {
+  padding: 0px;
+}
+.arrow-button-area {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.button-area {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  position: relative;
+}
+.button-left-area {
+  top: 42%;
+  left: 10px
+}
+.button-right-area {
+  top: 25%;
+  right: -82%;
+}
+.arrow {
+  width: 20px;
+  height: 20px;
+}
+.arrow-left {
+  position: absolute;
+  transform: scaleX(-1);
+  left: 3px;
+  top: 5px;
+}
+.arrow-right {
+  position: absolute;
+  top: 5px;
+  left: 6px;
 }
