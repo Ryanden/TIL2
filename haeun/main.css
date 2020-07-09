@@ -15,6 +15,10 @@
   width: 240px;
   /* margin-left: 10px; */
   margin-right: 10px;
+  position: relative;
+}
+.main-div:hover .arrow-button-area{
+  display: block;
 }
 .main-img {
   width: 100%;
@@ -27,4 +31,42 @@
   width: 1000px;
   height: 300px;
   margin: 0 auto;
+}
+.arrow-button-area {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.button-area {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.button-left-area {
+  top: 42%;
+  left: 10px
+}
+.button-right-area {
+  top: 25%;
+  right: -82%;
+}
+.arrow {
+  width: 20px;
+  height: 20px;
+}
+.arrow-left {
+  position: absolute;
+  transform: scaleX(-1);
+  left: 3px;
+  top: 5px;
+}
+.arrow-right {
+  position: absolute;
+  top: 5px;
+  left: 6px;
 }
