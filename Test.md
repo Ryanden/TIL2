@@ -220,8 +220,6 @@ var tmpArr = chunk(arr1, 3);
 
 var sortedArr = tmpArr.map(item => item.sort())
 
-var substringArr = substringArr.map(item => item)   arr1.substring(command[i][0], command[i][1])
-
 for (var i = 0; i < command.length; i++) {
     if (command[i][0] === command[i][1]) {
         console.log(arr1[command[i][0] - 1]);
