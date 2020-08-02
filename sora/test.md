@@ -1,3 +1,0 @@
-sora
-taekki
-haeun
