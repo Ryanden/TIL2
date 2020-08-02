@@ -73,14 +73,9 @@ body{
 
 .text-password-area {
     position: relative;
-<<<<<<< HEAD
 }
 
 .lock-image::after {
-=======
-  }
-  .lock-image::after {
->>>>>>> 8e0cd9a42bdd21666e59a2929fb2406360fe0cc7
     content: '';
     display: inline-block;
     position: absolute;
@@ -95,20 +90,13 @@ body{
     -webkit-background-size: 125px 75px;
     background-size: 125px 75px;
     cursor: pointer;
-<<<<<<< HEAD
 }
 
 .form-border{
-=======
-  }
-
-  .form-border{
->>>>>>> 8e0cd9a42bdd21666e59a2929fb2406360fe0cc7
     padding: 10px;
     width: 460px;
     height: 29px;
     border: solid 1px #dadada;
-<<<<<<< HEAD
 }
 
 .form-label{
@@ -119,23 +107,18 @@ body{
 .form-label-font-weight{
     font-weight: bold;
     font-size: 14px;
-=======
-  }
+}
 
-  .form-label{
+.form-label{
     height: 29px;
     margin: 19px 0 8px 0;
-  }
+}
 
-  .form-label-font-weight{
+.form-label-font-weight{
       font-weight: bold;
       font-size: 14px;
-  }
-
-  .confirm-image::after{
-
->>>>>>> 8e0cd9a42bdd21666e59a2929fb2406360fe0cc7
 }
+
 
 .text-password-confirm-area{
     position: relative;
